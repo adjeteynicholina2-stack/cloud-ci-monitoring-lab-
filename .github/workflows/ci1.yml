@@ -21,5 +21,5 @@ jobs:
       - name: Run Application
         run: python app.py
 
-      - name: Echo Build Message
-  run: echo "Build started successfully!"
+      - name: Print Python Version
+        run: python --version
